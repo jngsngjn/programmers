@@ -14,8 +14,4 @@ class Solution240901 {
         }
         return arr;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
