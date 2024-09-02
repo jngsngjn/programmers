@@ -3,7 +3,7 @@ package solutions;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181913
  */
-class Solution10 {
+class Solution010 {
     public String solution(String str, int[][] queries) {
         StringBuilder sb = new StringBuilder(str);
 

@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181909
  */
-class Solution14 {
+class Solution015 {
     public String[] solution(String str) {
         List<String> list = new ArrayList<>();
         for (int i = 0; i < str.length(); i++) {

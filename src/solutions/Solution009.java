@@ -3,7 +3,7 @@ package solutions;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181914
  */
-class Solution09 {
+class Solution009 {
     public int solution(String number) {
         char[] charArray = number.toCharArray();
         int sum = 0;

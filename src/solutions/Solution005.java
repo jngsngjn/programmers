@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181918
  */
-class Solution05 {
+class Solution005 {
     public int[] solution(int[] arr) {
         List<Integer> stk = new ArrayList<>();
 

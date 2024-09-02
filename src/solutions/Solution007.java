@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181916
  */
-class Solution07 {
+class Solution007 {
     public int solution(int a, int b, int c, int d) {
 
         Set<Integer> set = new HashSet<>();

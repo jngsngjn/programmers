@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/181919
  */
-class Solution04 {
+class Solution004 {
     public int[] solution(int n) {
         List<Integer> list = new ArrayList<>();
         list.add(n);
