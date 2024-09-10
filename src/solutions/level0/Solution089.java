@@ -7,7 +7,7 @@ import java.util.*;
  */
 class Solution089 {
     public int solution(int[] rank, boolean[] attendance) {
-        Map<Integer, Integer> map = new HashMap<>(); // rank, index
+        Map<Integer, Integer> map = new HashMap<>(); // rank : index
         for (int i = 0; i < rank.length; i++) {
             map.put(rank[i], i);
         }
