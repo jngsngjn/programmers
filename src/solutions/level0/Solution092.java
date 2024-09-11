@@ -2,6 +2,8 @@ package solutions.level0;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/120808
+ * 분모 : denominator
+ * 분자 : numerator
  */
 class Solution092 {
     public int[] solution(int numer1, int denom1, int numer2, int denom2) {
@@ -24,11 +26,10 @@ class Solution092 {
         // 최대공약수로 분자와 분모를 나누어 기약분수로 변환
         result[0] = numer / gcd;
         result[1] = denom / gcd;
-
         return result;
     }
 
-    // 유클리드 호제법으로 최대공약수를 구하는 함수
+    // 유클리드 호제법으로 최대공약수를 구하는 메서드
     private int gcd(int a, int b) {
         while (b != 0) {
             int temp = a % b;
